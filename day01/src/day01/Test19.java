@@ -1,0 +1,14 @@
+package day01;
+
+import java.util.Scanner;
+
+public class Test19 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("반지름을 입력하시오 : ");
+		int radius = sc.nextInt();
+		System.out.printf("원의넓이 : %f", radius * 3.14);
+
+	}
+}
