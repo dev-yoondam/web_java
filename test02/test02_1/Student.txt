@@ -1,0 +1,49 @@
+package ex01;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+// 윤담
+public class Student {
+	// 필드
+	int studentNumber; 
+	String studentName;
+	int[]grades; 
+	
+	// 생성자 : 매개변수 두개
+	public Student(String studentName, int[] grades) {
+		super();
+		this.studentName = studentName;
+		this.grades = grades;
+	}
+	
+	// 성적보기 메소드 (매개변수 x, 리턴타입 x)
+	// 학생이름, 학생번호 변수명 적어서 출력, 성적은 배열 index별로 순서대로 부여 
+	void showGradeInfo() {
+		System.out.println("===성적 정보===");
+		System.out.println("학생 이름 :" +this.studentName + ", 학생 번호 :" + this.studentNumber );
+		System.out.println("국어 성적 :" + grades[0] + ", 영어 성적 :" + grades[1] + ", 수학 성적 :" + grades[2]);
+	}
+	
+	// 평균 성적 계산 메소드 (매개변수 x, 리턴 o)
+	// total 변수 double형으로 선언해서 배열에 들어오는 값을 for문으로 인덱스별로 누적연산자를 사용해 total변수에 대입해준다
+	// 리턴값 작성할때 total / 과목수 배열길이로 리턴해서 바로 평균이 리턴되게 한다 
+	double scoreAvg() {
+		double total = 0.0;
+		for(int i=0; i<grades.length; i++) {
+			total += this.grades[i];
+		}
+		return total / grades.length;
+	}
+
+	// alt shift s v 로 오버라이딩할걸 선택해서 오버라이딩한다
+	// 기본으로는 주소값과 해시태그등이 나오는데 내가 원하는 정보로 바꿔서 리턴하게 한다 
+	@Override
+	public String toString() {
+		return "Student {studentName = " + this.studentName + ", studentNumber = " + this.studentNumber + ", grades = " + Arrays.toString(grades) + "}"    ;
+	}
+	
+
+	
+	
+}

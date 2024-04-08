@@ -1,0 +1,9 @@
+package markerTest2;
+
+public class Tiger extends Carnivore{
+
+	public Tiger(String name) {
+		super(name);
+	}
+
+}

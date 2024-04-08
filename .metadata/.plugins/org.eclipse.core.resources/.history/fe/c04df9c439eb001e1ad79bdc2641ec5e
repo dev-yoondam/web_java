@@ -1,0 +1,10 @@
+package musicInter;
+
+public class Rock implements Music{
+
+	@Override
+	public void mode() {
+		System.out.println("락 모드");
+	}
+
+}

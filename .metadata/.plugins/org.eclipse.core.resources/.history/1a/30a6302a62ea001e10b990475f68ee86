@@ -1,0 +1,8 @@
+package staticTest;
+
+public class MathUtilsMain {
+	public static void main(String[] args) {
+		//getMax 메소드 호출
+		int 
+	}
+}

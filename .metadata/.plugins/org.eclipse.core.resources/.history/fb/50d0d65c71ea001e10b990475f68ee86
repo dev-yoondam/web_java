@@ -1,0 +1,10 @@
+package castingTest3;
+
+public class CastingTest3 {
+	public static void main(String[] args) {
+		Animal animal = new Dog(); //업캐스팅
+		
+		//1. 같은 메소드가 부모에도 있고 자식에도 있는 경우(오버라이딩)
+		animal.crying();
+	}
+}

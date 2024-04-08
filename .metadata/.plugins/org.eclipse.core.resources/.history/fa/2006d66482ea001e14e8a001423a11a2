@@ -1,0 +1,9 @@
+package abstractTest;
+
+public class AbstractTest {
+	public static void main(String[] args) {
+//		ClassA a = new ClassA();
+		ClassB b = new ClassB();
+		System.out.println(b);
+	}
+}

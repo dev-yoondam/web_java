@@ -1,0 +1,10 @@
+package markerTest2;
+
+public class Tiger extends Carnivore{
+
+	//생성자
+	public Tiger(String name) {
+		super(name);
+	}
+
+}

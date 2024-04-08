@@ -1,0 +1,14 @@
+package castingTest4;
+
+public class ShapeTest {
+	public static void main(String[] args) {
+		polymorphism(new Circle());
+		polymorphism(new Triangle());
+	}
+	
+	//참조변수의 다형성 기능을 할 메소드
+	static void polymorphism(Shape shape) {
+		//업캐스팅 된 메소드 호출
+		shape.draw();
+	}
+}

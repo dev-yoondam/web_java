@@ -1,0 +1,21 @@
+package exceptionTest;
+
+public class ExceptionTest02 {
+	public static void main(String[] args) {
+		
+		System.out.println("프로그램 시작");
+		ExceptionTest02 et = new ExceptionTest02();
+		et.printLength("dataType");
+		et.printLength(null);
+		
+		System.out.println("프로그램 종료");
+		
+		
+	}
+	
+	//메소드
+	public void printLength(String data) {
+		int result = data.length();
+		System.out.println("data의 문자 개수 : " + result);
+	}
+}

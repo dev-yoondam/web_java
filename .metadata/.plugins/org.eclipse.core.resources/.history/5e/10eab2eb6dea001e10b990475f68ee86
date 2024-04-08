@@ -1,0 +1,13 @@
+package castingTest2;
+
+public class Student extends Person{
+	//필드
+	String schoolName;
+
+	//생성자
+	public Student(String name, int age, String job, String schoolName) {
+		super(name, age, job);
+		this.schoolName = schoolName;
+	}
+	
+}

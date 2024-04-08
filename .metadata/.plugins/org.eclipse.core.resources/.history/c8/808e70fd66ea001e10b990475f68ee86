@@ -1,0 +1,21 @@
+package enumTest;
+
+public class EnumTest {
+	//열거형 상수 정의
+	enum Day {
+		MONDAY,
+		TUESDAY,
+		WEDNESDAY,
+		THURSDAY,
+		FRIDAY,
+		SATURDAY,
+		SUNDAY
+	}
+	
+	public static void main(String[] args) {
+		//열거형 상수 사용
+		Day today = Day.MONDAY;
+		
+		System.out.println(today);
+	}
+}

@@ -1,0 +1,13 @@
+package musicInter;
+
+public class MusicMain {
+	public static void main(String[] args) {
+		System.out.println(new Rock() instanceof Music);
+		
+		
+	}
+	
+//	void check() {
+//		
+//	}
+}

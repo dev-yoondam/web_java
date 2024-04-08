@@ -1,0 +1,10 @@
+package castingTest4;
+
+public class Rectangle extends Shape{
+
+	public Rectangle() {
+		System.out.println("사각형을 그립니다");
+	}
+
+	
+}

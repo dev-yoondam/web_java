@@ -1,0 +1,27 @@
+package api;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class Lotto {
+	public void buyLotto() {
+		ArrayList<Integer> lotto = new ArrayList<>();
+		Scanner sc = new Scanner(System.in);
+		
+		int lottoNum = 0;
+		
+		while(lotto.size() < 5) {
+			System.out.println("번호를 입력하세요");
+			lottoNum = sc.nextInt();
+			if(!lotto.contains(lottoNum)) {
+				lotto.add(lottoNum);
+			}else {
+				System.out.println("중복된 번호입니다");
+			}
+		}
+		sc.close();
+		Collections.sort(lotto);
+		System.out.println(lotto);
+	}
+}

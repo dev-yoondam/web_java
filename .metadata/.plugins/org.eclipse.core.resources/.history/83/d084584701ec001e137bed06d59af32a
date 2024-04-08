@@ -1,0 +1,13 @@
+package InnerTest;
+
+public class OuterMain {
+	public static void main(String[] args) {
+		//Outer 외부클래스의 인스턴스 생성
+		Outer o = new Outer(); 
+		System.out.println(o); //InnerTest.Outer@6f2b958e
+
+		//Inner 내부 클래스의 인스턴스 생성
+		Inner i = new Inner();
+	
+	}
+}

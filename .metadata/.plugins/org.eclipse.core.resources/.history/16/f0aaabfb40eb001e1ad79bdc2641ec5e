@@ -1,0 +1,15 @@
+package fanTest;
+
+public class FanMain {
+	public static void main(String[] args) {
+		FanMain fm = new FanMain();
+		fm.method(null);
+		
+	}
+	
+	void method(Fan fan) {
+		fan.on();
+		fan.off();
+		fan.turbo();
+	}
+}

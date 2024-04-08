@@ -1,0 +1,5 @@
+package interTest;
+
+public interface Inter {
+
+}

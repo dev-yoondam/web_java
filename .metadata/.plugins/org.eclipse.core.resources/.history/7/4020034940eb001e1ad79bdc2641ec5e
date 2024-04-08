@@ -1,0 +1,5 @@
+package fanTest;
+
+public interface Fan {
+
+}

@@ -1,0 +1,6 @@
+package castingTest4;
+
+public class Circle extends Shape{
+	//메소드 오버라이딩
+	
+}

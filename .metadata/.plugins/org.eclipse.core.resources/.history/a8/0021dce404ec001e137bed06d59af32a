@@ -1,0 +1,15 @@
+package InnerTest;
+
+public class AMain {
+	public static void main(String[] args) {
+		//AClass의 인스턴스 a 생성
+		AClass a = new AClass();
+		System.out.println(a);
+		
+		//로컬내부클래스의 객체 생성 x
+//		AClass.InstanceInner
+	
+		
+		
+	}
+}

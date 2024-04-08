@@ -1,0 +1,25 @@
+package objectTest;
+
+public class NewUser {
+	// 필드
+	int userNumber;
+	String userName;
+
+	// 생성자
+	public NewUser() {
+		super();
+	}
+
+	public NewUser(int userNumber, String userName) {
+		super();
+		this.userNumber = userNumber;
+		this.userName = userName;
+	}
+
+	// toString() 오버라이딩
+	@Override
+	public String toString() {
+		return "NewUser [userNumber : " + userNumber + ", userName : " + userName + "]";
+	}
+
+}

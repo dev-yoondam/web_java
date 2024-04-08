@@ -1,0 +1,10 @@
+package markerTest2;
+
+//육식동물
+public class Carnivore extends Animal {
+
+	public Carnivore(String name) {
+		super(name);
+	}
+
+}

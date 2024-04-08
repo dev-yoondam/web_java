@@ -1,0 +1,37 @@
+package review;
+
+public class Main {
+	public static void main(String[] args) {
+		//익명클래스로 계산기 생성
+		Cal cal = new Cal() {
+			
+			@Override
+			public int sub(int num1, int num2) {
+				return num1 - num2;
+			}
+			
+			@Override
+			public int add(int num1, int num2) {
+				return num1 + num2;
+			}
+		};
+		
+		Cal cal2 = new Cal() {
+			
+			@Override
+			public int sub(int num1, int num2) {
+				return num1 - num2;
+			}
+			
+			@Override
+			public int add(int num1, int num2) {
+				return num1 + num2;
+			}
+		};
+		
+		//계산기 메소드 2개 호출
+		System.out.println(cal);
+		
+		
+	}
+}

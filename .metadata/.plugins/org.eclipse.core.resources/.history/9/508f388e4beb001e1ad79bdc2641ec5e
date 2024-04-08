@@ -1,0 +1,17 @@
+package markerTest2;
+
+public class Main {
+	public static void main(String[] args) {
+		Main m = new Main();
+		m.checkA(new Eagle("독수리"));
+		
+	}
+	
+	void checkA(Animal animal) {
+		if(animal instanceof Carnivore) {
+			System.out.println("육식동물");
+		}else if(animal instanceof Herbivore) {
+			System.out.println("초식동물");
+		}
+	}
+}

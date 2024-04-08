@@ -1,0 +1,9 @@
+package InnerTest;
+
+public class AMain {
+	public static void main(String[] args) {
+		//AClass의 인스턴스 a 생성
+		AClass a = new AClass();
+		System.out.println(a);
+	}
+}

@@ -1,0 +1,25 @@
+package musicInter;
+
+public class MusicMain {
+	public static void main(String[] args) {
+		
+		check(new Ballad());
+		check(new HipHop());
+		check(new Rock());
+		
+
+		
+	}
+	
+	static void check(Music music) {
+		music.mode(); //mode 오버라이딩 => 업캐스팅되어도 오버라이딩 된 메소드가 호출된다
+		if(music instanceof Ballad) {
+			((Ballad)music).onlyBallad();
+		}else if(music instanceof HipHop) {
+			((HipHop)music).onlyHipHop();
+		}else if(music instanceof Rock) {
+			((Rock)music).onlyRock();
+		}
+		
+	}
+}

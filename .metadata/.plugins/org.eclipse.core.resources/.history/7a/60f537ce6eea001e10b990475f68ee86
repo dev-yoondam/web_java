@@ -1,0 +1,8 @@
+package castingTest2;
+
+public class CastingTest {
+	public static void main(String[] args) {
+		//객체화 작업(인스턴스화)
+		Person p1 = new Person("짱구", 5, "유치원생")
+	}
+}

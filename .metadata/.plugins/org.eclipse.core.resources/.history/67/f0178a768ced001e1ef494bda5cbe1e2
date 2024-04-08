@@ -1,0 +1,7 @@
+package api;
+
+public class Lotto {
+	public void buyLotto() {
+		ArrayList<Integer> lotto = new ArrayList<>();
+	}
+}

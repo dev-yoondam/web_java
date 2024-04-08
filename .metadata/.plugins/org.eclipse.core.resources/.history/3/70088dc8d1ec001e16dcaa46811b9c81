@@ -1,0 +1,12 @@
+package exceptionTest;
+
+public class ExceptionTest04 {
+	public static void main(String[] args) {
+		try {
+			Class.forName("java.lang.String");
+			//ClassNotFoundException
+		}catch(ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+}

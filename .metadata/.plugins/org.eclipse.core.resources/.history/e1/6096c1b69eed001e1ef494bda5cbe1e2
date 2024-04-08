@@ -1,0 +1,15 @@
+package wrapperTest;
+
+public class WrapperTest {
+	public static void main(String[] args) {
+		int number = 10;
+		
+		//boxing
+		Integer numInt = new Integer(number); //boxing 예전방법
+		System.out.println(numInt);
+		Integer numInt2 = Integer.valueOf(number);
+		System.out.println(numInt2);
+		
+		
+	}
+}

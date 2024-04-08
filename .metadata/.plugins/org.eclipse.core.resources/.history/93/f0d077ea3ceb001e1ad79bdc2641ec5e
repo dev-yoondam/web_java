@@ -1,0 +1,20 @@
+package musicInter;
+
+public class MusicMain {
+	public static void main(String[] args) {
+		
+		check();
+		check();
+		check();
+		
+//		Music mu = new Music(); // 부모타입 부모 값
+		Music mu1 = new Ballad(); //부모 타입 자식 값 => 사용가능한 메소드?
+		((Ballad)mu1).onlyBallad();
+		
+		
+	}
+	
+	static void check() {
+		
+	}
+}

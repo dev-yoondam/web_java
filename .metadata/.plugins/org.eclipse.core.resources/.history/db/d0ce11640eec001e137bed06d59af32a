@@ -1,0 +1,9 @@
+package toy;
+
+public class Main {
+	public static void main(String[] args) {
+		Company c = new Company("서울");
+		c.register(new Dog());
+		
+	}
+}

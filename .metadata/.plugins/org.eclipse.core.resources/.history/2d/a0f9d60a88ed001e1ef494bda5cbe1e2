@@ -1,0 +1,8 @@
+package api;
+
+public class Test {
+	public static void main(String[] args) {
+		ApiTest2 at = new ApiTest2();
+		System.out.println(at);
+	}
+}

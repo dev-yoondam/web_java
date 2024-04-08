@@ -1,0 +1,6 @@
+package ambiguityTest;
+
+public class ClassB implements Inter1 extends ClassA {
+	
+
+}

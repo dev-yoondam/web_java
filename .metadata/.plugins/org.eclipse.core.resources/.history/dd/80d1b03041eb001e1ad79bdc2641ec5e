@@ -1,0 +1,20 @@
+package fanTest;
+
+public class BasicFan implements Fan{
+
+	@Override
+	public void on() {
+		System.out.println("버튼으로 전원켜기");
+	}
+
+	@Override
+	public void off() {
+		System.out.println("버튼으로 전원끄기");
+	}
+
+	@Override
+	public void turbo() {
+		
+	}
+
+}

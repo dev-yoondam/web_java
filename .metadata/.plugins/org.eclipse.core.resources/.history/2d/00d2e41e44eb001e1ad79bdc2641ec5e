@@ -1,0 +1,7 @@
+package interMethod;
+
+public class InterfaceMain {
+	MyClass mc = new MyClass();
+	
+	//
+}

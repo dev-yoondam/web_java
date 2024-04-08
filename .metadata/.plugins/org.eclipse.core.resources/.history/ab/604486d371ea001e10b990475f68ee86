@@ -1,0 +1,20 @@
+package castingTest3;
+
+public class CastingTest3 {
+	public static void main(String[] args) {
+		Animal animal = new Dog(); //업캐스팅
+		
+		//1. 같은 메소드가 부모에도 있고 자식에도 있는 경우(오버라이딩)
+		animal.crying();
+		//업캐스팅을 하여도 오버라이딩 된 메소드가 실행된다
+		
+		//2. 메소드가 부모에는 없고 자식에서 추가된 경우
+		//(부모에 존재하지 않는 멤버에 접근하려는 경우)
+//		animal.walk();
+		//자식 클래스에서 추가한 멤버는 부모타입의 참조변수로는 접근할 수 없다
+		//이 경우에는 다운 캐스팅을 해야한다
+		//((Dog)animal).walk();
+		
+		
+	}
+}
